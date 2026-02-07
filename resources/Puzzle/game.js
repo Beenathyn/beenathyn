@@ -70,9 +70,11 @@ PS.init = function( system, options ) {
     PS.borderColor(PS.ALL, PS.ALL, PS.COLOR_BLACK)
     // Set initial bead colors
     PS.color( PS.ALL, PS.ALL, PS.COLOR_BLUE);
-    PS.color(0,2, PS.COLOR_GRAY)
-    PS.color(2,2, PS.COLOR_GRAY)
-    PS.color(4,2, PS.COLOR_GRAY)
+    PS.color(1,4, PS.COLOR_GRAY)
+    PS.color(2,3, PS.COLOR_GRAY)
+    PS.color(3,3, PS.COLOR_GRAY)
+	PS.color(3,4, PS.COLOR_GRAY)
+	PS.color(4,3, PS.COLOR_GRAY)
 
 
 	// This is also a good place to display
@@ -315,3 +317,4 @@ PS.input = function( sensors, options ) {
 
 	// Add code here for when an input event is detected.
 };
+
